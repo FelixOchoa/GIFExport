@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "QuickSand";
+  color: white;
+}
+
+body {
+  padding: 100px;
+  background: linear-gradient(
+    to right top,
+    rgb(139, 92, 246),
+    rgb(253, 186, 116)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+input {
+  width: 100%;
+  font-size: 20px;
+  color: gray;
+}
+
+h2.title {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-shadow: 3px 2px 1px black;
+}
+h3.searchResult {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-shadow: 3px 2px 1px black;
+}
+.card {
+  align-content: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0px 0.5px 1px black;
+}
+
+.card img {
+  max-height: 170px;
+  width: 100%;
+}
+
+.card-grid {
+  padding: 10px 0px 50px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
